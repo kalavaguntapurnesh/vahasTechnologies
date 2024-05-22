@@ -1,4 +1,4 @@
-import FooterLogo from "../../public/logos/FooterLogo.png";
+import FooterLogo from "../assets/logos/FooterLogo.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -7,10 +7,10 @@ import { FaDiscord } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-100">
       <footer className="text-base">
         <div className="w-full max-w-[1400px] px-4 py-12 mx-auto sm:px-6 lg:py-8 lg:px-8">
-          <div className="pb-8 mb-8 border-b border-gray-200">
+          <div className="pb-8 mb-8 border-b border-gray-300">
             <div className="grid grid-cols-2 md:grid-cols-5 gap-0">
               <div className="flex justify-center items-center md:col-span-1 col-span-2">
                 <img
@@ -161,7 +161,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="mb-12 md:mb-0 ">
+              <div className="mb-12 md:mb-0">
                 <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white">
                   Contact Us
                 </h4>
@@ -210,14 +210,14 @@ const Footer = () => {
                           type="email"
                           name="email"
                           required
-                          className=" appearance-none flex md:w-11/12 w-full border border-transparent px-5 py-2 text-base leading-6 rounded-md text-gray-400 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
+                          className=" appearance-none flex w-full border border-transparent px-5 py-2 text-base leading-6 rounded-md text-gray-400 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
                           placeholder="Enter your email"
                         />
                       </div>
-                      <div className="mt-2 mb-2 rounded-md flex md:w-11/12 w-full justify-center items-center">
+                      <div className="mt-2 mb-2 rounded-md flex w-full justify-center items-center">
                         <button
                           type="submit"
-                          className="w-full flex items-center justify-center px-5 py-2 text-base leading-6 font-medium rounded-md text-white bg-green-500 hover:bg-colorFour focus:outline-none focus:bg-green-200 transition duration-1000 ease-in-out"
+                          className="w-full flex items-center justify-center px-5 py-2 text-base leading-6 font-medium rounded-md text-white bg-[#6d49c8] hover:bg-colorFour focus:outline-none focus:bg-green-200 transition duration-1000 ease-in-out"
                         >
                           Subscribe
                         </button>
