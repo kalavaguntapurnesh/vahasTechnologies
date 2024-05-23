@@ -29,7 +29,7 @@ const AboutTwo = () => {
                       <p className="mt-4">
                         Plan for success, and achieve better business agility
                         from strategy to execution with Project Portfolio
-                        Management solutions from Noetic IT Solutions.
+                        Management solutions from Vahas Technologies.
                       </p>
                     </div>
                   </div>

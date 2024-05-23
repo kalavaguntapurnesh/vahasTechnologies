@@ -30,20 +30,20 @@ const Navbar = () => {
                 <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
               <li className="lg:p-4 p-[11px] group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ">
-                <a href="/about">Careers</a>
+                <a href="/about">Products</a>
                 <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
               <li className="lg:p-4 p-[11px] group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ">
-                <a href="/contact">Contact</a>
+                <a href="/solutions">Solutions</a>
                 <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer font-medium">
                 <a
-                  href="/login"
+                  href="/contact"
                   className="bg-colorFour hover:bg-colorFour transition ease-in-out duration-1000
         rounded-[4px] text-white px-8 py-2.5 text-center"
                 >
-                  Login / Register{" "}
+                 Contact Us
                 </a>
               </li>
             </ul>
@@ -74,14 +74,14 @@ const Navbar = () => {
                   <a href="/about">About Us</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/about">Careers</a>
+                  <a href="/about">Products</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/contact">Contact</a>
+                  <a href="/solutions">Solutions</a>
                 </li>
 
                 <li className="p-4 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/login">Login / Register</a>
+                  <a href="/contact">Contact Us</a>
                 </li>
               </ul>
             </div>

@@ -9,7 +9,7 @@ const AboutThree = () => {
                 <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
                   <div className="group transition duration-1000 ">
                     <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
-                      We Provide Services
+                      Services We Provide
                     </h1>
                     <div className="bg-[#2fe8d1] h-[3px] w-full group-hover:w-0 transition-all duration-500"></div>
                   </div>
