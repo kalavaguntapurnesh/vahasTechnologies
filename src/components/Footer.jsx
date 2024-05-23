@@ -210,7 +210,7 @@ const Footer = () => {
                           type="email"
                           name="email"
                           required
-                          className=" appearance-none flex w-full border border-gray-700 px-5 py-2 text-base leading-6 rounded-md text-gray-400 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
+                          className=" appearance-none flex w-full border border-gray-400 px-5 py-2 text-base leading-6 rounded-md text-gray-400 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
                           placeholder="Enter your email"
                         />
                       </div>
