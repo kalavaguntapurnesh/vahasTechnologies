@@ -12,6 +12,11 @@ const ContactOne = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full pb-14">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
+                {/* <div>
+                  <h1 className="md:text-5xl text-4xl md:font-semibold font-bold text-center">
+                    Contact Us
+                  </h1>
+                </div> */}
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
                   <div>
                     <div className="flex justify-center items-center">
@@ -60,35 +65,45 @@ const ContactOne = () => {
                       </div>
                       <div className="space-y-4">
                         <div className="flex flex-row mt-4">
-                          <div className="md:w-[30%] w-[25%] flex justify-center items-center">
-                            <img src={Mobile} alt="" className="w-20 h-20" />
+                          <div className="md:w-[30%] w-[25%] flex justify-center items-center ">
+                            <img
+                              src={Map}
+                              alt=""
+                              className="md:w-20 md:h-20 h-16 w-16"
+                            />
                           </div>
-                          <div className="flex items-center">
-                            <h1 className="font-semibold md:text-xl text-base">
+                          <div className="flex items-center md:w-[70%] w-[75%]">
+                            <h1 className="mt-4 font-semibold text-base">
+                              402, Yula Twee, Kanthivanam Colony,
+                              <span> Hyderabad, 5000084</span>
+                            </h1>
+                          </div>
+                        </div>
+                        <div className="flex flex-row">
+                          <div className="md:w-[30%] w-[25%] flex justify-center items-center">
+                            <img
+                              src={Mobile}
+                              alt=""
+                              className="md:w-20 md:h-20 h-16 w-16"
+                            />
+                          </div>
+                          <div className="flex items-center md:w-[70%] w-[75%]">
+                            <h1 className="font-semibold text-base">
                               91+ 8340060805
                             </h1>
                           </div>
                         </div>
                         <div className="flex flex-row">
                           <div className="md:w-[30%] w-[25%] flex justify-center items-center">
-                            <img src={Mail} alt="" className="w-20 h-20" />
+                            <img
+                              src={Mail}
+                              alt=""
+                              className="md:w-20 md:h-20 h-16 w-16"
+                            />
                           </div>
-                          <div className="flex items-center">
-                          <h1 className="font-semibold md:text-xl text-base">
+                          <div className="flex items-center md:w-[70%] w-[75%]">
+                            <h1 className="font-semibold text-base">
                               vahastechnologies@gmail.com
-                            </h1>
-                          </div>
-                        </div>
-                        <div className="flex flex-row">
-                          <div className="md:w-[30%] w-[25%] flex justify-center items-center">
-                            <img src={Map} alt="" className="w-20 h-20" />
-                          </div>
-                          <div className="flex items-center flex-col">
-                            <h1 className="mt-4 font-semibold md:text-xl text-base">
-                              402, Yula Twee, Kanthivanam Colony,
-                            </h1>
-                            <h1 className="font-semibold md:text-xl text-base">
-                              Hyderabad, 5000084
                             </h1>
                           </div>
                         </div>
