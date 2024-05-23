@@ -30,6 +30,10 @@ const Navbar = () => {
                 <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
               <li className="lg:p-4 p-[11px] group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ">
+                <a href="/about">Careers</a>
+                <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              </li>
+              <li className="lg:p-4 p-[11px] group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ">
                 <a href="/contact">Contact</a>
                 <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
@@ -68,6 +72,9 @@ const Navbar = () => {
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
                   <a href="/about">About Us</a>
+                </li>
+                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
+                  <a href="/about">Careers</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
                   <a href="/contact">Contact</a>
