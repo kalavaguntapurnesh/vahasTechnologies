@@ -1,7 +1,9 @@
+import One from "../../public/One.jpg";
+
 const AboutTwo = () => {
   return (
     <div className="bg-[#f9f9f9]">
-      <div className="relative pt-8 pb-4">
+      <div className="relative pt-4 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full pb-14">
@@ -17,9 +19,9 @@ const AboutTwo = () => {
                     <div className="mt-8">
                       <p>
                         Vahas Technologies are committed to your success with
-                        Industry Standard IT solutions. We’re here to help you throughout
-                        the entire solution lifecycle — from strategy and
-                        consulting to implementation and management — with
+                        Industry Standard IT solutions. We’re here to help you
+                        throughout the entire solution lifecycle — from strategy
+                        and consulting to implementation and management — with
                         unsurpassed depth of expertise and breadth of services
                         offerings to deliver real business results with
                         confidence.
@@ -31,8 +33,12 @@ const AboutTwo = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="border-2 border-red-500">
-                    <h1>Hello Hero</h1>
+                  <div className="flex justify-center items-center">
+                    <img
+                      src={One}
+                      alt=""
+                      className="lg:w-10/12 w-11/12 lg:h-80 h-92 rounded-sm"
+                    />
                   </div>
                 </div>
               </div>
