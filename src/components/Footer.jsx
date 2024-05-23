@@ -3,11 +3,11 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-[#f9f9f9]">
       <footer className="text-base">
         <div className="w-full max-w-[1400px] px-4 py-12 mx-auto sm:px-6 lg:py-8 lg:px-8">
           <div className="pb-8 mb-8 border-b border-gray-300">
@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
 
               <div className="mb-12 md:mb-0 ">
-                <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white">
+                <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-[#000]">
                   Services
                 </h4>
                 <ul className="pl-0 mt-4 space-y-3 list-none">
@@ -68,7 +68,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="mb-12 md:mb-0 ">
-                <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white">
+                <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-[#000]">
                   Connect
                 </h4>
                 <ul className="pl-0 mt-4 space-y-3 list-none">
@@ -115,7 +115,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="mb-12 md:mb-0 ">
-                <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white">
+                <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-[#000]">
                   Company
                 </h4>
                 <ul className="pl-0 mt-4 space-y-3 list-none">
@@ -140,7 +140,7 @@ const Footer = () => {
                       href="/privacy"
                       className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
-                      About Vahas
+                      Vahas Leadership
                     </a>
                   </li>
                   <li className=" flex items-center justify-center">
@@ -148,7 +148,7 @@ const Footer = () => {
                       href="/login"
                       className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
-                      Contact Us
+                      Sales Policy
                     </a>
                   </li>
                   <li className=" flex items-center justify-center">
@@ -162,7 +162,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="mb-12 md:mb-0">
-                <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white">
+                <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-[#000]">
                   Contact Us
                 </h4>
                 <div className="grid grid-cols-5 gap-2 mt-4">
@@ -170,35 +170,35 @@ const Footer = () => {
                     <FaLinkedin
                       size={25}
                       className="cursor-pointer"
-                      color="white"
+                      color="black"
                     />
                   </a>
                   <a href="/about">
                     <FaFacebook
                       size={25}
                       className="cursor-pointer"
-                      color="white"
+                      color="black"
                     />
                   </a>
                   <a href="/about">
                     <FaInstagram
                       size={25}
                       className="cursor-pointer"
-                      color="white"
+                      color="black"
                     />
                   </a>
                   <a href="/about">
                     <FaXTwitter
                       size={25}
                       className="cursor-pointer"
-                      color="white"
+                      color="black"
                     />
                   </a>
                   <a href="/about">
-                    <FaDiscord
+                    <FaYoutube
                       size={25}
                       className="cursor-pointer"
-                      color="white"
+                      color="black"
                     />
                   </a>
                 </div>
@@ -210,7 +210,7 @@ const Footer = () => {
                           type="email"
                           name="email"
                           required
-                          className=" appearance-none flex w-full border border-transparent px-5 py-2 text-base leading-6 rounded-md text-gray-400 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
+                          className=" appearance-none flex w-full border border-gray-700 px-5 py-2 text-base leading-6 rounded-md text-gray-400 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
                           placeholder="Enter your email"
                         />
                       </div>

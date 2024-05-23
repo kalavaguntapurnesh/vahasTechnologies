@@ -7,7 +7,7 @@ export default {
       colors: {
         footer: "#001327",
         inputColor: "#F8F8F8",
-        footerLinks: "#a6aab6",
+        footerLinks: "#595959",
         scrollToTop: "#e7473c",
         trackColor: "#002147",
         colorThree: "#2a3b2c",
