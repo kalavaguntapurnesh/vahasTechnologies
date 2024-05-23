@@ -1,4 +1,8 @@
-import image from "../../public/image.webp";
+import Lottie from "lottie-react";
+import Mobile from "../../public/mobile.png";
+import Contact from "../../public/lotties/Contact.json";
+import Map from "../../public/map.png";
+import Mail from "../../public/mail.png";
 
 const ContactOne = () => {
   return (
@@ -10,9 +14,15 @@ const ContactOne = () => {
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
                   <div>
-                    <img src={image} alt="" />
+                    <div className="flex justify-center items-center">
+                      <Lottie
+                        animationData={Contact}
+                        loop={true}
+                        className="lg:w-10/12 w-11/12 lg:h-96 h-92"
+                      />
+                    </div>
                   </div>
-                  <div>
+                  <div className="md:mt-12">
                     <div className="flex md:justify-start justify-center">
                       <h1 className="md:text-5xl text-4xl md:font-semibold font-bold">
                         Have any Questions?
@@ -48,37 +58,45 @@ const ContactOne = () => {
                           Get in touch with us!
                         </h1>
                       </div>
-                      <div className="flex flex-col gap-4 mt-8">
-                        <div className="grid grid-cols-4">
-                          <div className="col-span-1 flex justify-center">
-                            <h1>Hello</h1>
+                      <div className="space-y-4">
+                        <div className="flex flex-row mt-4">
+                          <div className="md:w-[30%] w-[25%] flex justify-center items-center">
+                            <img src={Mobile} alt="" className="w-20 h-20" />
                           </div>
-                          <div className="col-span-3 ">
-                            <h1>vahastechnologies@clouddatanetworks.com</h1>
-                          </div>
-                        </div>
-                        <div className="grid grid-cols-4">
-                          <div className="col-span-1 flex justify-center">
-                            <h1>Hello</h1>
-                          </div>
-                          <div className="col-span-3 ">
-                            <h1>91+ 8340060805</h1>
-                          </div>
-                        </div>
-                        <div className="grid grid-cols-4">
-                          <div className="col-span-1  flex justify-center">
-                            <h1>Hello</h1>
-                          </div>
-                          <div className="col-span-3 ">
-                            <h1>
-                              402, Yula Twee, Kanthivanam Colony, Hyderabad,
-                              5000084
+                          <div className="flex items-center">
+                            <h1 className="font-semibold md:text-xl text-base">
+                              91+ 8340060805
                             </h1>
                           </div>
                         </div>
+                        <div className="flex flex-row">
+                          <div className="md:w-[30%] w-[25%] flex justify-center items-center">
+                            <img src={Mail} alt="" className="w-20 h-20" />
+                          </div>
+                          <div className="flex items-center">
+                          <h1 className="font-semibold md:text-xl text-base">
+                              vahastechnologies@gmail.com
+                            </h1>
+                          </div>
+                        </div>
+                        <div className="flex flex-row">
+                          <div className="md:w-[30%] w-[25%] flex justify-center items-center">
+                            <img src={Map} alt="" className="w-20 h-20" />
+                          </div>
+                          <div className="flex items-center flex-col">
+                            <h1 className="mt-4 font-semibold md:text-xl text-base">
+                              402, Yula Twee, Kanthivanam Colony,
+                            </h1>
+                            <h1 className="font-semibold md:text-xl text-base">
+                              Hyderabad, 5000084
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex flex-col gap-4 mt-8">
                         <div className="flex md:justify-start justify-center md:mt-6 mt-4">
-                          <h1 className="text-3xl font-bold">
-                            Contact us for below issues
+                          <h1 className="md:text-3xl text-4xl font-bold">
+                            How can we help?
                           </h1>
                         </div>
                         <div className="flex md:justify-start justify-center">
