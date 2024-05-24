@@ -8,7 +8,7 @@ const Final = () => {
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
                   <div>
-                    <div className="mt-2 mb-2">
+                    <div className="mt-2 mb-2 flex md:justify-start justify-center items-center">
                       <h1 className="text-3xl font-medium">
                         Your journey starts here
                       </h1>
@@ -24,9 +24,9 @@ const Final = () => {
                     </div>
                     <div className="mt-4 mb-4">
                       <div className="flex flex-row md:justify-start justify-center">
-                        <button className="py-3 bg-[#6d49c8] px-10 text-center rounded-md text-white">
+                        <a href="/contact" className="py-3 bg-[#6d49c8] px-10 text-center rounded-md text-white">
                           Contact Us
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
