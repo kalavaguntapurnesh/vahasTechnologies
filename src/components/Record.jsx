@@ -1,7 +1,4 @@
-import TabLogo from "../../public/TabLogo.png";
-import SNG from "../../public/SNG.png";
-import CDN from "../../public/CDN.png";
-import Dental from "../../public/Dental.png";
+
 
 const Record = () => {
   return (
@@ -20,7 +17,7 @@ const Record = () => {
                   </div>
                 </div>
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-4 pt-8">
-                  <div>
+                  <div className="relative">
                     <div className="flex flex-col">
                       <div className="flex md:justify-start justify-center items-center">
                         <h1 className="md:text-6xl text-5xl font-bold">$96B</h1>
@@ -37,8 +34,10 @@ const Record = () => {
                         </p>
                       </div>
                     </div>
+                    <div className="absolute right-0 bg-[#2fe8d1] top-0 hidden h-full min-h-[1em] w-0.5 self-stretch border-t-0 bg-gradient-to-tr from-transparent  to-transparent opacity-25 dark:via-neutral-400 lg:block"></div>
                   </div>
-                  <div>
+
+                  <div className="relative">
                     <div className="flex flex-col">
                       <div className="flex md:justify-start justify-center items-center">
                         <h1 className="md:text-6xl text-5xl font-bold">
@@ -57,6 +56,7 @@ const Record = () => {
                         </p>
                       </div>
                     </div>
+                    <div className="absolute right-0 bg-[#2fe8d1] top-0 hidden h-full min-h-[1em] w-0.5 self-stretch border-t-0 bg-gradient-to-tr from-transparent  to-transparent opacity-25 dark:via-neutral-400 lg:block"></div>
                   </div>
                   <div>
                     <div className="flex flex-col">
@@ -74,39 +74,6 @@ const Record = () => {
                           Billing last year alone
                         </p>
                       </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="pt-12">
-                  <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
-                    <div className="flex justify-center items-center">
-                      <img
-                        src={TabLogo}
-                        alt=""
-                        className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
-                      />
-                    </div>
-                    <div className="flex justify-center items-center">
-                      <img
-                        src={SNG}
-                        alt=""
-                        className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
-                      />
-                    </div>
-                    <div className="flex justify-center items-center">
-                      <img
-                        src={Dental}
-                        alt=""
-                        className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
-                      />
-                    </div>
-                    <div className="flex justify-center items-center">
-                      <img
-                        src={CDN}
-                        alt=""
-                        className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
-                      />
                     </div>
                   </div>
                 </div>
