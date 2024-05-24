@@ -1,5 +1,3 @@
-
-
 const CareersThree = () => {
   return (
     <div className="bg-white">

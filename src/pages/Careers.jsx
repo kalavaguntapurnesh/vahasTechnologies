@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import CareersTwo from "../components/CareersTwo";
 import CareersThree from "../components/CareersThree";
+import CareersFour from "../components/CareersFour";
 
 const Careers = () => {
   return (
@@ -11,6 +12,7 @@ const Careers = () => {
       <CareersOne />
       <CareersTwo />
       <CareersThree />
+      <CareersFour />
       <Footer />
     </>
   );
