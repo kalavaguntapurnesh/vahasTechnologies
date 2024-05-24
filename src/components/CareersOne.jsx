@@ -1,4 +1,4 @@
-const AboutOne = () => {
+const CareersOne = () => {
   return (
     <div className="bg-white">
       <div className="relative pt-28 pb-8">
@@ -7,12 +7,27 @@ const AboutOne = () => {
             <div className="justify-center w-full pb-8">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="mt-2 mb-8 flex flex-col flex-wrap items-center">
-                  <div className=" max-w-[800px]">
+                  <div className="group transition duration-1000 ">
                     <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
-                      Our core values guide and enable our company to deliver
-                      our shared mission as one team.
+                      Careers at Vahas Technologies
                     </h1>
+                    <div className="bg-[#2fe8d1] h-[3px] w-full group-hover:w-0 transition-all duration-500"></div>
                   </div>
+                </div>
+                <div className="text-center pb-8">
+                  <p>
+                    At Vahas Technologies, We focus on quickly teaching
+                    you real-world IT skills you can use immediately. Seasoned
+                    experts and constantly updated courseware combine with
+                    real-world lab exercises to challenge your understanding of
+                    the technology. We don't rely on mindless click-to-complete
+                    labs or rote memorization. Our labs present you with real
+                    problems you'll be faced with on the job. They incorporate
+                    real variables and challenge your problem solving
+                    capabilities. You get the most realistic experience possible
+                    so you'll be ready to tackle similar issues back at the
+                    office.
+                  </p>
                 </div>
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
                   <div className="flex justify-center items-center flex-col">
@@ -87,4 +102,4 @@ const AboutOne = () => {
   );
 };
 
-export default AboutOne;
+export default CareersOne;
