@@ -8,7 +8,15 @@ const AboutTwo = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full pb-14">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
-                <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+                <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
+                  <div className="group transition duration-1000 ">
+                    <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
+                      About Vahas Technologies
+                    </h1>
+                    <div className="bg-[#2fe8d1] h-[3px] w-full group-hover:w-0 transition-all duration-500"></div>
+                  </div>
+                </div>
+                <div className="grid md:grid-cols-2 grid-cols-1 gap-4 pt-8">
                   <div>
                     <div className="flex flex-col flex-wrap">
                       <h1 className="uppercase text-2xl font-medium">
