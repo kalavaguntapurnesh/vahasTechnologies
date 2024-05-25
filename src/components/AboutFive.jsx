@@ -1,4 +1,4 @@
-const Working = () => {
+const AboutFive = () => {
   return (
     <div className="bg-[#f9f9f9]">
       <div className="relative pt-8 pb-4">
@@ -57,4 +57,4 @@ const Working = () => {
   );
 };
 
-export default Working;
+export default AboutFive;

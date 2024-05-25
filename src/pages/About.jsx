@@ -1,18 +1,18 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import AboutOne from "../components/AboutOne";
 import AboutTwo from "../components/AboutTwo";
-import AboutThree from "../components/AboutThree";
 import AboutFour from "../components/AboutFour";
+import AboutFive from "../components/AboutFive";
+import Subscribe from "../components/Subscribe";
 
 const About = () => {
   return (
     <>
       <Navbar />
-      <AboutOne />
       <AboutTwo />
-      <AboutThree />
+      <AboutFive />
       <AboutFour />
+      <Subscribe />
       <Footer />
     </>
   );
