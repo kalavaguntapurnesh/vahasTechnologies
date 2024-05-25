@@ -11,13 +11,13 @@ const CareersOne = () => {
                     <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
                       Careers at Vahas Technologies
                     </h1>
-                    <div className="bg-[#2fe8d1] h-[3px] w-full group-hover:w-0 transition-all duration-500"></div>
+                    <div className="bg-[#2fe8d1] h-[3px] w-full group-hover:w-0 transition-all duration-500 md:block hidden"></div>
                   </div>
                 </div>
                 <div className="text-center pb-8">
                   <p>
-                    At Vahas Technologies, We focus on quickly teaching
-                    you real-world IT skills you can use immediately. Seasoned
+                    At Vahas Technologies, We focus on quickly teaching you
+                    real-world IT skills you can use immediately. Seasoned
                     experts and constantly updated courseware combine with
                     real-world lab exercises to challenge your understanding of
                     the technology. We don't rely on mindless click-to-complete

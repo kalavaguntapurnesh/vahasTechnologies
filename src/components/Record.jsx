@@ -1,5 +1,3 @@
-
-
 const Record = () => {
   return (
     <div className="bg-white">
@@ -76,6 +74,15 @@ const Record = () => {
                       </div>
                     </div>
                   </div>
+                </div>
+
+                <div className="flex justify-center items-center pt-8">
+                  <a
+                    href="/careers"
+                    className="py-2 px-8 border-black border-2 rounded-3xl font-semibold hover:bg-black hover:text-white transition ease-in-out duration-1000"
+                  >
+                    Make a better future &#8594;
+                  </a>
                 </div>
               </div>
             </div>
