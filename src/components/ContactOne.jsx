@@ -61,7 +61,7 @@ const ContactOne = () => {
                 <div>
                   <div className="grid md:grid-cols-2 grid-cols-1 gap-4 md:mt-16 mt-8">
                     <div>
-                      <div className="flex md:justify-start justify-center">
+                      <div className="flex md:justify-start justify-center pb-4">
                         <h1 className="text-4xl font-bold">
                           Get in touch with us!
                         </h1>
@@ -218,8 +218,8 @@ const ContactOne = () => {
                         <div className="w-full flex justify-center items-center ">
                           <div className=" md:w-8/12 w-full flex md:justify-start justify-center items-center">
                             <a
-                              href="#home"
-                              className="hover:shadow-form rounded-md bg-[#6d49c8] transition duration-1000 ease-in-out hover:bg-[#6d49c8] py-3 px-12 text-base font-medium text-white outline-none"
+                              href="/contact"
+                              className="py-2 px-8 border-black border-2 rounded-3xl font-semibold hover:bg-black hover:text-white transition ease-in-out duration-1000"
                             >
                               Submit
                             </a>
