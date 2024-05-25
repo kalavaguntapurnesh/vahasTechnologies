@@ -9,7 +9,7 @@ const Final = () => {
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
                   <div>
                     <div className="mt-2 mb-2 flex md:justify-start justify-center items-center">
-                      <h1 className="text-3xl font-medium">
+                      <h1 className="text-3xl font-semibold">
                         Your journey starts here
                       </h1>
                     </div>
@@ -24,7 +24,10 @@ const Final = () => {
                     </div>
                     <div className="mt-4 mb-4">
                       <div className="flex flex-row md:justify-start justify-center">
-                        <a href="/contact" className="py-3 bg-[#6d49c8] px-10 text-center rounded-md text-white">
+                        <a
+                          href="/contact"
+                          className="py-2 px-8 border-black border-2 rounded-3xl font-semibold hover:bg-black hover:text-white transition ease-in-out duration-1000"
+                        >
                           Contact Us
                         </a>
                       </div>
