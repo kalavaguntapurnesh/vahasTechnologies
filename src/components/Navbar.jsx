@@ -46,7 +46,7 @@ const Navbar = () => {
                 <a
                   href="/contact"
                   className="bg-colorFour hover:bg-colorFour transition ease-in-out duration-1000
-        rounded-[4px] text-white px-8 py-2.5 text-center"
+        rounded-3xl text-white px-8 py-2.5 text-center"
                 >
                   Contact Us
                 </a>

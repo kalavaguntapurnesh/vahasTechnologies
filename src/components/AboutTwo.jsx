@@ -2,8 +2,8 @@ import One from "../../public/One.jpg";
 
 const AboutTwo = () => {
   return (
-    <div className="bg-[#f9f9f9]">
-      <div className="relative pt-4 pb-4">
+    <div className="bg-white">
+      <div className="relative pt-28 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full pb-14">
@@ -31,6 +31,14 @@ const AboutTwo = () => {
                         from strategy to execution with Project Portfolio
                         Management solutions from Vahas Technologies.
                       </p>
+                    </div>
+                    <div className="pt-8 flex md:justify-start justify-center">
+                      <a
+                        href="/contact"
+                        className="py-2 px-10 border-black border-2 rounded-3xl font-semibold hover:bg-black hover:text-white transition ease-in-out duration-1000"
+                      >
+                        Collaborate with us &#8594;
+                      </a>
                     </div>
                   </div>
                   <div className="flex justify-center items-center">
