@@ -219,7 +219,7 @@ const ContactOne = () => {
                           <div className=" md:w-8/12 w-full flex md:justify-start justify-center items-center">
                             <a
                               href="/contact"
-                              className="py-2 px-8 border-black border-2 rounded-3xl font-semibold hover:bg-black hover:text-white transition ease-in-out duration-1000"
+                              className="py-2 px-12 border-black border-2 rounded-3xl font-semibold hover:bg-black hover:text-white transition ease-in-out duration-1000"
                             >
                               Submit
                             </a>
