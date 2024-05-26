@@ -1,5 +1,5 @@
 import CareersOne from "../components/CareersOne";
-import Navbar from "../components/Navbar";
+import OriNavbar from "../components/OriNavbar";
 import Footer from "../components/Footer";
 import CareersTwo from "../components/CareersTwo";
 import CareersThree from "../components/CareersThree";
@@ -8,7 +8,7 @@ import CareersFour from "../components/CareersFour";
 const Careers = () => {
   return (
     <>
-      <Navbar />
+      <OriNavbar />
       <CareersOne />
       <CareersTwo />
       <CareersThree />

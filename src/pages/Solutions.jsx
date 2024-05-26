@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
+import OriNavbar from "../components/OriNavbar";
 import Footer from "../components/Footer";
 import ServiceOne from "../components/ServiceOne";
 
 const Solutions = () => {
   return (
     <>
-      <Navbar />
+      <OriNavbar />
       <ServiceOne />
       <Footer />
     </>
