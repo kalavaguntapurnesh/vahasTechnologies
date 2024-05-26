@@ -1,11 +1,11 @@
 import ContactOne from "../components/ContactOne";
-import Navbar from "../components/Navbar";
+import OriNavbar from "../components/OriNavbar";
 import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
     <>
-      <Navbar />
+      <OriNavbar />
       <ContactOne />
       <Footer />
     </>
