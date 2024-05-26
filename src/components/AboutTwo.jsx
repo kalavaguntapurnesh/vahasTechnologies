@@ -3,7 +3,7 @@ import One from "../../public/One.jpg";
 const AboutTwo = () => {
   return (
     <div className="bg-white">
-      <div className="relative pt-28 pb-4">
+      <div className="relative pt-32 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full pb-14">

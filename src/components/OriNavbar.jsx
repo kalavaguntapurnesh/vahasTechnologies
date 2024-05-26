@@ -2,6 +2,13 @@ import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineMenu } from "react-icons/ai";
 import Logo from "../assets/logos/FooterLogo.png";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { IoMdPhonePortrait } from "react-icons/io";
 
 const OriNavbar = () => {
   const [nav, setNav] = useState(false);
@@ -11,11 +18,32 @@ const OriNavbar = () => {
   };
 
   return (
-    <div className=" md:z-20 z-20 fixed w-full bg-white">
+    <div className=" md:z-20 z-20 fixed w-full bg-white h-[120px]">
       <div className="w-full mx-auto max-w-[1400px]">
         <div className="justify-center w-full">
-          <div className="text-black flex justify-between items-center md:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-[94px] w-full md:top-0 top-0 bg-white max-w-[1400px] mx-auto">
+          <div className="lg:block hidden">
+            <div className="flex justify-between items-center h-[36px]">
+              <div className="flex flex-row justify-center items-center gap-3 ml-6 pt-2">
+                <IoIosMail />
+                <h1>hello@vahastechnologies.com</h1>
+              </div>
+              <div className="flex flex-row justify-center items-center gap-3 pt-2">
+                <IoMdPhonePortrait />
+                <h1>7013707003</h1>
+              </div>
+              <div className="flex flex-row justify-center items-center gap-4 mr-6 pt-2">
+                <h1 className="font-medium">Follow us on</h1>
+                <FaLinkedin />
+                <FaXTwitter />
+                <FaInstagram />
+                <FaFacebook />
+                <FaYoutube />
+              </div>
+            </div>
+          </div>
+          <div className="text-black flex justify-between items-center md:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] w-full md:top-0 top-0 bg-white max-w-[1400px] mx-auto">
             {/* <nav className="flex justify-between items-center w-full mx-auto "> */}
+
             <div className=" ml-2">
               <img src={Logo} className="w-[86px]" alt="" />
               {/* <div className=" text-[30px] block">
@@ -23,28 +51,28 @@ const OriNavbar = () => {
               </div> */}
             </div>
             <div className="lg:ml-12">
-              <ul className="hidden md:flex items-center lg:gap-[4vw] gap-[3vw]">
+              <ul className="hidden md:flex items-center gap-[3vw]">
                 {" "}
-                <li className="group cursor-pointer text-colorThree font-medium lg:text-base text-sm tracking-wider transition duration-1000 ease-in-out">
-                  <a href="#">Home</a>
+                <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
+                  <a href="/">Home</a>
                   <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
-                <li className="group cursor-pointer text-colorThree font-medium lg:text-base text-sm tracking-wider transition duration-1000 ease-in-out">
-                  <a href="#">About Us</a>
+                <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
+                  <a href="/about">About Us</a>
                   <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
-                <li className="group cursor-pointer text-colorThree font-medium lg:text-base text-sm tracking-wider transition duration-1000 ease-in-out">
-                  <a className="hover:text-gray-500 " href="#">
+                <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
+                  <a className="hover:text-gray-500 " href="/products">
                     Products
                   </a>
                   <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
-                <li className="group cursor-pointer text-colorThree font-medium lg:text-base text-sm tracking-wider transition duration-1000 ease-in-out">
-                  <a href="#">Solutions</a>
+                <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
+                  <a href="/solutions">Solutions</a>
                   <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
-                <li className="group cursor-pointer text-colorThree font-medium lg:text-base text-sm tracking-wider transition duration-1000 ease-in-out">
-                  <a href="#">Careers</a>
+                <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
+                  <a href="/careers">Careers</a>
                   <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
               </ul>
