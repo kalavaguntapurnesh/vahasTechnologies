@@ -2,13 +2,13 @@ import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineMenu } from "react-icons/ai";
 import Logo from "../assets/logos/FooterLogo.png";
-import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
-import { IoMdPhonePortrait } from "react-icons/io";
+// import { FaInstagram } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
+// import { FaLinkedin } from "react-icons/fa";
+// import { FaFacebook } from "react-icons/fa";
+// import { FaYoutube } from "react-icons/fa";
+// import { IoIosMail } from "react-icons/io";
+// import { IoMdPhonePortrait } from "react-icons/io";
 
 const OriNavbar = () => {
   const [nav, setNav] = useState(false);
@@ -18,10 +18,10 @@ const OriNavbar = () => {
   };
 
   return (
-    <div className=" md:z-20 z-20 fixed w-full bg-white h-[120px]">
+    <div className=" md:z-20 z-20 fixed w-full bg-white">
       <div className="w-full mx-auto max-w-[1400px]">
         <div className="justify-center w-full">
-          <div className="lg:block hidden">
+          {/* <div className="lg:block hidden">
             <div className="flex justify-between items-center h-[36px]">
               <div className="flex flex-row justify-center items-center gap-3 ml-6 pt-2">
                 <IoIosMail />
@@ -40,8 +40,8 @@ const OriNavbar = () => {
                 <FaYoutube />
               </div>
             </div>
-          </div>
-          <div className="text-black flex justify-between items-center md:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] w-full md:top-0 top-0 bg-white max-w-[1400px] mx-auto">
+          </div> */}
+          <div className="text-black flex justify-between items-center md:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-24 w-full md:top-0 top-0 bg-white max-w-[1400px] mx-auto">
             {/* <nav className="flex justify-between items-center w-full mx-auto "> */}
 
             <div className=" ml-2">

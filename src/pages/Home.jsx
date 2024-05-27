@@ -5,6 +5,7 @@ import Working from "../components/Working";
 import Final from "../components/Final";
 import Record from "../components/Record";
 import OriNavbar from "../components/OriNavbar";
+import Benefits from "../components/Benefits";
 const Home = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <Record />
       <Working />
+      <Benefits />
       <Final />
       <Footer />
     </>
