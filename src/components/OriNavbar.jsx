@@ -15,11 +15,16 @@ import { VscSymbolMethod } from "react-icons/vsc";
 import { FaIndustry } from "react-icons/fa";
 import { GrResources } from "react-icons/gr";
 import { motion } from "framer-motion";
+import { AiFillCustomerService } from "react-icons/ai";
+import { FaBusinessTime } from "react-icons/fa";
+import { RiGovernmentFill } from "react-icons/ri";
+import { GiCrystalGrowth } from "react-icons/gi";
 // import { IconType } from "react-icons";
 
 const OriNavbar = () => {
   const [nav, setNav] = useState(false);
   const [open, setOpen] = useState(false);
+  const [openTwo, setOpenTwo] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -70,15 +75,61 @@ const OriNavbar = () => {
                   <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
-                  <a className="hover:text-gray-500 " href="/products">
-                    Products
-                  </a>
-                  <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-                </li>
-                <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/solutions">Solutions</a>
                   <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
+                <motion.div
+                  animate={openTwo ? "open" : "closed"}
+                  className="relative"
+                >
+                  <button
+                    onClick={() => setOpenTwo((pv) => !pv)}
+                    className="flex items-center gap-2 rounded-md "
+                  >
+                    <span className="font-medium text-base text-colorThree">
+                      Products
+                    </span>
+                    <motion.span variants={iconVariants}>
+                      <FiChevronDown />
+                    </motion.span>
+                  </button>
+
+                  <motion.ul
+                    initial={wrapperVariants.closed}
+                    variants={wrapperVariants}
+                    style={{ originY: "top", translateX: "-80%" }}
+                    className="flex flex-col gap-2 p-2 rounded-lg bg-white shadow-xl absolute top-[120%] left-[50%] w-48 overflow-hidden"
+                  >
+                    <a href="/careers">
+                      <Option
+                        setOpen={setOpenTwo}
+                        Icon={FaBusinessTime}
+                        text="Our Products"
+                      />
+                    </a>
+                    <a href="/contact">
+                      <Option
+                        setOpen={setOpenTwo}
+                        Icon={VscSymbolMethod}
+                        text="Clients"
+                      />
+                    </a>
+                    <a href="/careers">
+                      <Option
+                        setOpen={setOpenTwo}
+                        Icon={RiGovernmentFill}
+                        text="Our Impact"
+                      />
+                    </a>
+                    <a href="/contact">
+                      <Option
+                        setOpen={setOpenTwo}
+                        Icon={GiCrystalGrowth}
+                        text="Our Solutions"
+                      />
+                    </a>
+                  </motion.ul>
+                </motion.div>
                 <motion.div
                   animate={open ? "open" : "closed"}
                   className="relative"
@@ -125,8 +176,8 @@ const OriNavbar = () => {
                     <a href="/contact">
                       <Option
                         setOpen={setOpen}
-                        Icon={GrResources}
-                        text="Resources"
+                        Icon={AiFillCustomerService}
+                        text="Technical Support"
                       />
                     </a>
                   </motion.ul>
