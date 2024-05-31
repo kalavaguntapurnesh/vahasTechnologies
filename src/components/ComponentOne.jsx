@@ -1,4 +1,4 @@
-import WorldMap from "../../public/worldMap.png";
+import WorldMap from "../assets/Social.png";
 
 const ComponentOne = () => {
   return (
@@ -17,9 +17,13 @@ const ComponentOne = () => {
                         </p>
                       </div>
                       <div className="mt-3 mb-2 flex md:justify-start justify-center">
-                        <h1 className="text-3xl font-semibold">
-                          Vahas Technologies is obsessed with better performance
-                        </h1>
+                        <div className="flex flex-col flex-wrap">
+                          <h1 className="text-3xl font-semibold">
+                            Vahas Technologies is obsessed with better
+                            performance
+                          </h1>
+                          <div className="bg-[#2fe8d1] w-[30%] h-[2px] mt-1 ml-1 md:block hidden"></div>
+                        </div>
                       </div>
                       <div className="mt-6 mb-2 flex md:justify-start justify-center">
                         <p className="text-gray-700">

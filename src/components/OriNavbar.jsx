@@ -69,15 +69,15 @@ const OriNavbar = () => {
                 {" "}
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/">Home</a>
-                  <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                  <div className="bg-[#2fe8d1] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/about">About Us</a>
-                  <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                  <div className="bg-[#2fe8d1] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/solutions">Solutions</a>
-                  <div className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                  <div className="bg-[#2fe8d1] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <motion.div
                   animate={openTwo ? "open" : "closed"}
@@ -101,7 +101,7 @@ const OriNavbar = () => {
                     style={{ originY: "top", translateX: "-80%" }}
                     className="flex flex-col gap-2 p-2 rounded-lg bg-white shadow-xl absolute top-[120%] left-[50%] w-48 overflow-hidden"
                   >
-                    <a href="/careers">
+                    <a href="/products">
                       <Option
                         setOpen={setOpenTwo}
                         Icon={FaBusinessTime}
@@ -228,7 +228,7 @@ const OriNavbar = () => {
                   <a href="/careers">Careers</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/about">Products</a>
+                  <a href="/products">Products</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
                   <a href="/solutions">Solutions</a>
