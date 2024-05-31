@@ -1,4 +1,4 @@
-import One from "../../public/One.jpg";
+import WorldMap from "../../public/WorldMapTwo.png";
 
 const AboutTwo = () => {
   return (
@@ -49,12 +49,8 @@ const AboutTwo = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="flex justify-center items-center">
-                    <img
-                      src={One}
-                      alt=""
-                      className="lg:w-10/12 w-11/12 lg:h-80 h-92 rounded-sm"
-                    />
+                  <div className="flex justify-center items-center md:mt-0 mt-4">
+                    <img src={WorldMap} alt="" className="w-full" />
                   </div>
                 </div>
               </div>

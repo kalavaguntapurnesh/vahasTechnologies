@@ -1,3 +1,7 @@
+import CareersOne from "../assets/CareersOne.jpg";
+import CareersTwo from "../assets/CareersTwo.jpg";
+import CareersThreeImage from "../assets/CareersThree.jpg";
+
 const CareersThree = () => {
   return (
     <div className="bg-white">
@@ -16,14 +20,14 @@ const CareersThree = () => {
                   </div>
                   <div className="flex justify-center items-center">
                     <img
-                      src="https://marvel-b1-cdn.bc0a.com/f00000000004333/www.zuora.com/wp-content/uploads/2021/08/Subscribed_Hackthon.jpg"
+                      src={CareersTwo}
                       alt=""
                       className="rounded-full w-80 h-80"
                     />
                   </div>
                   <div className="flex justify-center items-center">
                     <img
-                      src="https://marvel-b1-cdn.bc0a.com/f00000000004333/www.zuora.com/wp-content/uploads/2021/08/FoodSorting.jpg"
+                      src={CareersThreeImage}
                       alt=""
                       className="rounded-full w-80 h-80"
                     />
