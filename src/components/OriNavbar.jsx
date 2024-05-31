@@ -19,6 +19,7 @@ import { AiFillCustomerService } from "react-icons/ai";
 import { FaBusinessTime } from "react-icons/fa";
 import { RiGovernmentFill } from "react-icons/ri";
 import { GiCrystalGrowth } from "react-icons/gi";
+import DarkMode from "./DarkMode";
 // import { IconType } from "react-icons";
 
 const OriNavbar = () => {
@@ -185,7 +186,10 @@ const OriNavbar = () => {
               </ul>
             </div>
 
-            <div className="md:block hidden mr-6">
+            <div className="md:flex justify-center items-center gap-4  hidden mr-6">
+              {/* <div>
+                <DarkMode />
+              </div> */}
               <a
                 href="/contact"
                 className="py-2 px-8 border-[#2fe8d1] hover:border-black border-2 rounded-3xl font-semibold hover:bg-black hover:text-white transition ease-in-out duration-1000"

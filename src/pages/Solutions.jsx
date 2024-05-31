@@ -1,12 +1,14 @@
 import OriNavbar from "../components/OriNavbar";
 import Footer from "../components/Footer";
-import ServiceOne from "../components/ServiceOne";
+import ComponentOne from "../components/ComponentOne";
+import ComponentTwo from "../components/ComponentTwo";
 
 const Solutions = () => {
   return (
     <>
       <OriNavbar />
-      <ServiceOne />
+      <ComponentTwo />
+      <ComponentOne />
       <Footer />
     </>
   );

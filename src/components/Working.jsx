@@ -1,3 +1,10 @@
+import { FaSatelliteDish } from "react-icons/fa6";
+import { FaCloudDownloadAlt } from "react-icons/fa";
+import { MdOutlineSecurity } from "react-icons/md";
+import { FaNetworkWired } from "react-icons/fa";
+import Lottie from "lottie-react";
+import Globe from "../../public/lotties/Globe.json";
+
 const Working = () => {
   return (
     <div className="bg-white">
@@ -7,13 +14,6 @@ const Working = () => {
             <div className="justify-center w-full pb-14">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
-                  <div className="flex justify-center items-center">
-                    <img
-                      src="https://marvel-b1-cdn.bc0a.com/f00000000004333/www.zuora.com/wp-content/uploads/2024/02/zds-j2u-img-2.webp"
-                      alt=""
-                      className="w-3/4"
-                    />
-                  </div>
                   <div className="md:mt-6">
                     <div>
                       <div className="mt-2 flex md:justify-start justify-center">
@@ -23,8 +23,7 @@ const Working = () => {
                       </div>
                       <div className="mt-3 mb-2 flex md:justify-start justify-center">
                         <h1 className="text-3xl font-semibold">
-                          Monetize a variety of business models, all on one
-                          centralized platform.
+                          Solid, battle-tested infrastructure
                         </h1>
                       </div>
                       <div className="mt-6 mb-2 flex md:justify-start justify-center">
@@ -37,6 +36,69 @@ const Working = () => {
                         </p>
                       </div>
 
+                      <div className="flex md:justify-start justify-center flex-col mt-8">
+                        <div className=" mb-4">
+                          <div className="grid grid-cols-4 ">
+                            <div className="flex justify-center items-center col-span-1">
+                              <FaNetworkWired className="w-8 h-8" />
+                            </div>
+                            <div className="col-span-3">
+                              <div>
+                                <h1 className="font-medium text-2xl">
+                                  Premium Global Cloud
+                                </h1>
+                              </div>
+                              <p className="mt-2">Powered by Kubernetes</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className=" mb-4">
+                          <div className="grid grid-cols-4">
+                            <div className="flex justify-center items-center col-span-1">
+                              <MdOutlineSecurity className="w-8 h-8" />
+                            </div>
+                            <div className="col-span-3">
+                              <div>
+                                <h1 className="font-medium text-2xl">
+                                  Enterprise-Grade Security
+                                </h1>
+                              </div>
+                              <p className="mt-2">Powered by Norton Security</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className=" mb-4">
+                          <div className="grid grid-cols-4">
+                            <div className="flex justify-center items-center col-span-1">
+                              <FaCloudDownloadAlt className="w-8 h-8" />
+                            </div>
+                            <div className="col-span-3">
+                              <div>
+                                <h1 className="font-medium text-2xl">
+                                  Containerized and Automated
+                                </h1>
+                              </div>
+                              <p className="mt-2">Powered by Google Cloud</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className=" mb-4">
+                          <div className="grid grid-cols-4">
+                            <div className="flex justify-center items-center col-span-1">
+                              <FaSatelliteDish className="w-8 h-8" />
+                            </div>
+                            <div className="col-span-3">
+                              <div>
+                                <h1 className="font-medium text-2xl">
+                                  Premium Global Cloud
+                                </h1>
+                              </div>
+                              <p className="mt-2">Powered by Kubernetes</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* 
                       <div className="pt-8 flex md:justify-start justify-center">
                         <a
                           href="/careers"
@@ -44,7 +106,16 @@ const Working = () => {
                         >
                           Explore about us &#8594;
                         </a>
-                      </div>
+                      </div> */}
+                    </div>
+                  </div>
+                  <div>
+                    <div className="flex justify-center items-center">
+                      <Lottie
+                        animationData={Globe}
+                        loop={true}
+                        className="w-full h-100"
+                      />
                     </div>
                   </div>
                 </div>
