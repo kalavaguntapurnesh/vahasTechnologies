@@ -1,4 +1,9 @@
-import Tick from "../assets/TickOne.gif";
+import Globe from "../../public/globe.svg";
+import Computer from "../../public/Computer.svg";
+import Server from "../../public/Server.svg";
+import Cloud from "../../public/Cloud.svg";
+import Thunder from "../../public/Thunder.svg";
+import Document from "../../public/Document.svg";
 
 const Benefits = () => {
   return (
@@ -22,7 +27,7 @@ const Benefits = () => {
                     <div>
                       <div className="flex flex-row items-center gap-4">
                         <div>
-                          <img src={Tick} alt="" className="w-12 h-12" />
+                          <img src={Globe} alt="" className="w-11 h-11" />
                         </div>
                         <div>
                           <h1 className="text-2xl font-medium">
@@ -44,7 +49,7 @@ const Benefits = () => {
                     <div>
                       <div className="flex flex-row items-center gap-4">
                         <div>
-                          <img src={Tick} alt="" className="w-12 h-12" />
+                          <img src={Server} alt="" className="w-11 h-11" />
                         </div>
                         <div>
                           <h1 className="text-2xl font-medium">
@@ -66,7 +71,7 @@ const Benefits = () => {
                     <div>
                       <div className="flex flex-row items-center gap-4">
                         <div>
-                          <img src={Tick} alt="" className="w-12 h-12" />
+                          <img src={Cloud} alt="" className="w-11 h-11" />
                         </div>
                         <div>
                           <h1 className="text-2xl font-medium">
@@ -88,7 +93,7 @@ const Benefits = () => {
                     <div>
                       <div className="flex flex-row items-center gap-4">
                         <div>
-                          <img src={Tick} alt="" className="w-12 h-12" />
+                          <img src={Computer} alt="" className="w-11 h-11" />
                         </div>
                         <div>
                           <h1 className="text-2xl font-medium">
@@ -110,7 +115,7 @@ const Benefits = () => {
                     <div>
                       <div className="flex flex-row items-center gap-4">
                         <div>
-                          <img src={Tick} alt="" className="w-12 h-12" />
+                          <img src={Thunder} alt="" className="w-11 h-11" />
                         </div>
                         <div>
                           <h1 className="text-2xl font-medium">
@@ -132,7 +137,7 @@ const Benefits = () => {
                     <div>
                       <div className="flex flex-row items-center gap-4">
                         <div>
-                          <img src={Tick} alt="" className="w-12 h-12" />
+                          <img src={Document} alt="" className="w-11 h-11" />
                         </div>
                         <div>
                           <h1 className="text-2xl font-medium">

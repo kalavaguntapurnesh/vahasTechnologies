@@ -50,7 +50,7 @@ const Subscribe = () => {
                       />
                       <button
                         type="submit"
-                        className="text-white absolute rounded-3xl end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        className="text-white absolute rounded-3xl end-2.5 bottom-2.5 bg-[#5256d5] hover:bg-blue-500 transition ease-in-out duration-1000 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                       >
                         Subscribe
                       </button>

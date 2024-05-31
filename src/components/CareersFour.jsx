@@ -24,36 +24,31 @@ const CareersFour = () => {
                   <a href="/about" className="flex justify-center items-center">
                     <FaLinkedin
                       size={36}
-                      className="cursor-pointer"
-                      color="black"
+                      className="cursor-pointer text-companyColor"
                     />
                   </a>
                   <a href="/about" className="flex justify-center items-center">
                     <FaFacebook
                       size={36}
-                      className="cursor-pointer"
-                      color="black"
+                      className="cursor-pointer text-companyColor"
                     />
                   </a>
                   <a href="/about" className="flex justify-center items-center">
                     <FaInstagram
                       size={36}
-                      className="cursor-pointer"
-                      color="black"
+                      className="cursor-pointer text-companyColor"
                     />
                   </a>
                   <a href="/about" className="flex justify-center items-center">
                     <FaXTwitter
                       size={36}
-                      className="cursor-pointer"
-                      color="black"
+                      className="cursor-pointer text-companyColor"
                     />
                   </a>
                   <a href="/about" className="flex justify-center items-center">
                     <FaYoutube
                       size={36}
-                      className="cursor-pointer"
-                      color="black"
+                      className="cursor-pointer text-companyColor"
                     />
                   </a>
                 </div>

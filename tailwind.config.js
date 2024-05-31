@@ -5,6 +5,7 @@ export default {
     extend: {
       container: {},
       colors: {
+        companyColor: "#5256d5",
         footer: "#001327",
         inputColor: "#F8F8F8",
         footerLinks: "#595959",
