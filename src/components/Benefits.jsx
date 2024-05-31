@@ -1,9 +1,9 @@
-import Tick from "../assets/Tick.svg";
+import Tick from "../assets/TickOne.gif";
 
 const Benefits = () => {
   return (
     <div className="bg-white ">
-      <div className="relative pt-8 pb-8">
+      <div className="relative pt-4 pb-8">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full pb-14">
@@ -11,7 +11,7 @@ const Benefits = () => {
                 <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
                   <div className="group transition duration-1000 ">
                     <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
-                      Key Benefits
+                      Core Key Benefits
                     </h1>
                     <div className="bg-[#2fe8d1] h-[3px] w-full group-hover:w-0 transition-all duration-500"></div>
                   </div>

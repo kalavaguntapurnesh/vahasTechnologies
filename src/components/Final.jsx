@@ -9,11 +9,14 @@ const Final = () => {
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
                   <div>
                     <div className="mt-2 mb-2 flex md:justify-start justify-center items-center">
-                      <h1 className="text-3xl font-semibold">
-                        Your journey starts here
-                      </h1>
+                      <div className="flex flex-col flex-wrap">
+                        <h1 className="text-3xl font-semibold">
+                          Your journey starts here
+                        </h1>
+                        <div className="bg-[#2fe8d1] w-[30%] h-[2px] mt-1 ml-1 md:block hidden"></div>
+                      </div>
                     </div>
-                    <div className="mt-2 mb-2">
+                    <div className="mt-4 mb-2">
                       <p className="text-gray-800">
                         As your customers change how they want to access your
                         products and services, you have to evolve how you do
@@ -52,7 +55,7 @@ const Final = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="bg-[#F1F5F8] rounded-lg md:h-56 h-40">
+                    <div className="bg-[#F1F5F8] rounded-lg md:h-56 h-40 ">
                       <div className="pt-3 pb-3 h-[30%] flex justify-center items-end">
                         <h1 className="text-center text-xl font-semibold">
                           Want to change?
