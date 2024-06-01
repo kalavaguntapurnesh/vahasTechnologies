@@ -1,52 +1,53 @@
 // import Lottie from "lottie-react";
 // import HeaderLottie from "../assets/lotties/Header.json";
+import { Autoplay, A11y } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/autoplay";
+import "swiper/css/controller";
 
 const Hero = () => {
+  const images = [
+    "https://images.pexels.com/photos/1139556/pexels-photo-1139556.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://images.pexels.com/photos/534174/pexels-photo-534174.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://images.pexels.com/photos/233698/pexels-photo-233698.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  ];
+
   return (
-    <div className="w-full bg-white pt-32 pb-8 h-auto">
-      <div className="max-w-[1400px] m-auto grid md:grid-cols-2 ">
-        <div className="flex flex-col gap-4 w-full">
-          <div className=" flex items-center lg:justify-start justify-center mt-4 mx-3">
-            <h1 className="xl:text-6xl text-[48px] font-bold lg:px-2 xl:leading-[72px] lg:leading-[60px] lg:text-start text-center text-colorFive">
-              Find & Book your dream
-              <span className="text-colorFour"> appointment with us</span>
-            </h1>
-          </div>
-
-          <div className="flex items-center lg:justify-start justify-center mx-3">
-            <h1 className="lg:text-[24px] text-[24px] font-semibold lg:px-2 lg:text-start text-center text-colorFive">
-              Want to know how this happens ?
-            </h1>
-          </div>
-
-          <div className="flex items-center lg:justify-start justify-center mx-3">
-            <p className="lg:text-lg text-[16px] text-gray-600 lg:px-2 lg:text-start text-center">
-              But you might feel a bit lost on how to get started. So, Syndèo
-              does the hard work for you! Everything you need to know is on one
-              platform. You will receive guidance throughout the whole
-              application process-all completely free.
-            </p>
-          </div>
-
-          <div className="flex items-center lg:justify-start justify-center md:mx-5">
-            <a
-              href="/login"
-              className="bg-colorFour hover:bg-[#14a800] font-semibold outline-none
-              rounded-md hover:shadow-form transition duration-1000 ease-in-out text-white px-8 py-2.5 text-center"
-            >
-              Get Started Now
-            </a>
-          </div>
-        </div>
-
-        <div className="flex justify-center lg:justify-end items-center ">
-          {/* <Lottie
-            animationData={HeaderLottie}
-            loop={true}
-            className="lg:w-10/12 w-11/12 lg:h-96 h-92"
-          /> */}
-        </div>
-      </div>
+    <div className="w-full bg-white lg:pt-16 pt-8 lg:h-[75vh] h-auto">
+      <Swiper
+        modules={[Autoplay, A11y]}
+        spaceBetween={30}
+        slidesPerView={1}
+        autoplay
+      >
+        {images.map((img, index) => (
+          <SwiperSlide key={index}>
+            <div className="relative">
+              <img
+                src={img}
+                alt={`slide-${index + 1}`}
+                className="w-full h-[500px] object-cover"
+              />
+              <div className="absolute inset-0 bg-gray-700 opacity-40 rounded-md"></div>
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <h2 className="text-white text-center text-3xl font-bold">
+                  Upgrade with technological support.
+                </h2>
+                <div className="mt-8">
+                  <a
+                    href="/contact"
+                    className="py-2 px-10 border-black border-2 rounded-3xl font-semibold hover:bg-black hover:text-white transition ease-in-out duration-1000"
+                  >
+                    Collaborate with us &#8594;
+                  </a>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
 };
