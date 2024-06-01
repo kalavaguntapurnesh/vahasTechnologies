@@ -23,7 +23,7 @@ const ComponentSix = () => {
                 </div>
 
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
-                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-48">
+                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-48 hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                     <div className="flex justify-center items-center mt-8">
                       <img
                         src="https://kinsta.com/wp-content/themes/kinsta/images/duos/small/percentage.svg"
@@ -42,7 +42,7 @@ const ComponentSix = () => {
                     </div>
                   </div>
 
-                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-48">
+                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-48 hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                     <div className="flex justify-center items-center mt-8">
                       <img
                         src="https://kinsta.com/wp-content/themes/kinsta/images/monos/small/lightning.svg"
@@ -61,7 +61,7 @@ const ComponentSix = () => {
                     </div>
                   </div>
 
-                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-48">
+                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-48 hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                     <div className="flex justify-center items-center mt-8">
                       <img
                         src="https://kinsta.com/wp-content/themes/kinsta/images/monos/small/check-circle.svg"
@@ -80,7 +80,7 @@ const ComponentSix = () => {
                     </div>
                   </div>
 
-                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-48">
+                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-48 hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                     <div className="flex justify-center items-center mt-8">
                       <img
                         src="https://kinsta.com/wp-content/themes/kinsta/images/duos/small/clone.svg"

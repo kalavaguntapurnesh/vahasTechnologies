@@ -31,7 +31,7 @@ const ComponentFive = () => {
                 </div>
 
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
-                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-80">
+                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-80 hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                     <div className="flex justify-center items-center mt-4">
                       <img
                         src="https://kinsta.com/wp-content/themes/kinsta/images/duos/normal/equality.svg"
@@ -50,7 +50,7 @@ const ComponentFive = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-80">
+                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-80 hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                     <div className="flex justify-center items-center mt-4">
                       <img
                         src="https://kinsta.com/wp-content/themes/kinsta/images/duos/normal/checklist.svg"
@@ -70,7 +70,7 @@ const ComponentFive = () => {
                     </div>
                   </div>
 
-                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-80">
+                  <div className="bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-xl h-80 hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                     <div className="flex justify-center items-center mt-4">
                       <img
                         src="https://kinsta.com/wp-content/themes/kinsta/images/duos/normal/code-minification.svg"
