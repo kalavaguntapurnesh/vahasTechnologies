@@ -16,7 +16,7 @@ const Hero = () => {
     },
     {
       image:
-        "https://images.pexels.com/photos/1139556/pexels-photo-1139556.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/1633970/pexels-photo-1633970.jpeg?auto=compress&cs=tinysrgb&w=1200",
       heading: "Vahas Technolgies Support.",
       button: "Explore with us",
     },
