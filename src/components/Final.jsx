@@ -45,14 +45,14 @@ const Final = () => {
                       </div>
                       <div className="md:pt-2 pt-1 md:pb-2 pb-1 px-2 h-[30%] flex justify-center items-start">
                         <p className="text-center md:text-base text-sm text-gray-800">
-                          Get your hands on the product and test out Zuora for
+                          Get your hands on the product and test out Vahas for
                           free.
                         </p>
                       </div>
                       <div className="flex justify-center items-center h-[40%]">
-                        <p className="text-sm font-semibold mb-4">
+                        <a href="/careers" className="text-sm font-semibold mb-4">
                           Learn More &#8594;
-                        </p>
+                        </a>
                       </div>
                     </div>
                     <div className="bg-[#F1F5F8] rounded-lg md:h-56 h-40 ">
@@ -67,9 +67,9 @@ const Final = () => {
                         </p>
                       </div>
                       <div className="flex justify-center items-center h-[40%]">
-                        <p className="text-sm font-semibold mb-4">
+                        <a href="/products" className="text-sm font-semibold mb-4">
                           Learn More &#8594;
-                        </p>
+                        </a>
                       </div>
                     </div>
                   </div>

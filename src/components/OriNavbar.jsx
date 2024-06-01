@@ -58,26 +58,26 @@ const OriNavbar = () => {
           <div className="text-black flex justify-between items-center md:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-24 w-full md:top-0 top-0 bg-white max-w-[1400px] mx-auto">
             {/* <nav className="flex justify-between items-center w-full mx-auto "> */}
 
-            <div className=" ml-2">
+            <div className="ml-2 flex flex-row justify-center items-center">
               <img src={Logo} className="w-[86px]" alt="" />
-              {/* <div className=" text-[30px] block">
-                <h2 className="text-colorFour font-bold">VAHAS.</h2>
-              </div> */}
+              <h1 className="lg:block hidden text-3xl text-[#3e60e0] uppercase font-semibold">
+                Vahas.
+              </h1>
             </div>
             <div className="lg:ml-12">
               <ul className="hidden md:flex items-center gap-[3vw]">
                 {" "}
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/">Home</a>
-                  <div className="bg-[#2fe8d1] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                  <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/about">About Us</a>
-                  <div className="bg-[#2fe8d1] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                  <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/solutions">Solutions</a>
-                  <div className="bg-[#2fe8d1] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                  <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <motion.div
                   animate={openTwo ? "open" : "closed"}
@@ -192,7 +192,7 @@ const OriNavbar = () => {
               </div> */}
               <a
                 href="/contact"
-                className="py-2 px-8 border-[#2fe8d1] hover:border-black border-2 rounded-3xl font-semibold hover:bg-black hover:text-white transition ease-in-out duration-1000"
+                className="py-2 px-8 hover:border-[#3e60e0] bg-[#3e60e0] hover:bg-white hover:border-2 rounded-3xl font-medium text-white hover:text-black transition ease-in-out duration-1000"
               >
                 Contact Us
               </a>
