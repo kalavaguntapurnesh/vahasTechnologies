@@ -214,9 +214,18 @@ const OriNavbar = () => {
                   : "md:hidden fixed left-0 top-0 w-[70%] border-r h-[75%] bg-white dark:bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
               }
             >
-              <h1 className="w-full text-2xl text-colorFour font-bold m-4 cursor-pointer">
+              {/* <h1 className="w-full text-2xl text-colorFour font-bold m-4 cursor-pointer border-2 border-red-500">
                 VAHAS.
-              </h1>
+              </h1> */}
+              <div className="w-full flex flex-row justify-start items-center">
+                <img src={Logo} className="w-[86px] ml-3" alt="" />
+                <div>
+                  <h1 className="text-2xl text-[#3e60e0] uppercase font-semibold">
+                    VAHAS.
+                  </h1>
+                </div>
+              </div>
+
               <ul className=" uppercase p-4">
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
                   <a href="/">Home</a>
