@@ -1,7 +1,7 @@
 import TabLogo from "../../public/TabLogo.png";
 import SNG from "../../public/SNG.png";
 import CDN from "../../public/CDN.png";
-import Dental from "../../public/Dental.png";
+import Alcheminds from "../../public/Alcheminds.png";
 
 const AboutFour = () => {
   return (
@@ -21,32 +21,41 @@ const AboutFour = () => {
                 </div>
                 <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
                   <div className="flex justify-center items-center">
-                    <img
-                      src={TabLogo}
-                      alt=""
-                      className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
-                    />
+                    <a href="">
+                      {" "}
+                      <img
+                        src={TabLogo}
+                        alt=""
+                        className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
+                      />
+                    </a>
                   </div>
                   <div className="flex justify-center items-center">
-                    <img
-                      src={SNG}
-                      alt=""
-                      className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
-                    />
+                    <a href="https://securenetworkguardsolutions.com/">
+                      <img
+                        src={SNG}
+                        alt=""
+                        className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
+                      />
+                    </a>
                   </div>
                   <div className="flex justify-center items-center">
-                    <img
-                      src={Dental}
-                      alt=""
-                      className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
-                    />
+                    <a href="https://clouddatanetworks.com/">
+                      <img
+                        src={Alcheminds}
+                        alt=""
+                        className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
+                      />
+                    </a>
                   </div>
                   <div className="flex justify-center items-center">
-                    <img
-                      src={CDN}
-                      alt=""
-                      className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
-                    />
+                    <a href="https://clouddatanetworks.com/">
+                      <img
+                        src={CDN}
+                        alt=""
+                        className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]"
+                      />
+                    </a>
                   </div>
                 </div>
               </div>
