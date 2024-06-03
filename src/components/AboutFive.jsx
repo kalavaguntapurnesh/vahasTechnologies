@@ -1,3 +1,5 @@
+import AboutOne from "../../public/AboutOne.webp";
+
 const AboutFive = () => {
   return (
     <div className="bg-white">
@@ -8,11 +10,7 @@ const AboutFive = () => {
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
                   <div className="flex justify-center items-center">
-                    <img
-                      src="https://marvel-b1-cdn.bc0a.com/f00000000004333/www.zuora.com/wp-content/uploads/2024/02/zds-j2u-img-2.webp"
-                      alt=""
-                      className="w-3/4"
-                    />
+                    <img src={AboutOne} alt="" className="w-3/4" />
                   </div>
                   <div className="md:mt-6">
                     <div>

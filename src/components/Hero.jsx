@@ -5,30 +5,30 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/controller";
+import One from "../../public/One.jpeg";
+import Two from "../../public/Two.jpeg";
+import Three from "../../public/Three.webp";
+import Four from "../../public/Four.webp";
 
 const Hero = () => {
   const data = [
     {
-      image:
-        "https://images.pexels.com/photos/1139556/pexels-photo-1139556.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: One,
       heading: "IT Software Solution & Support.",
       button: "Collaborate with us",
     },
     {
-      image:
-        "https://images.pexels.com/photos/1633970/pexels-photo-1633970.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: Two,
       heading: "Vahas Technolgies Support.",
       button: "Explore with us",
     },
     {
-      image:
-        "https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: Three,
       heading: "Solid battle tested Infrastructure.",
       button: "Make a better future",
     },
     {
-      image:
-        "https://images.pexels.com/photos/534174/pexels-photo-534174.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: Four,
       heading: "Better User Interface Structure.",
       button: "Journey Starts here",
     },
