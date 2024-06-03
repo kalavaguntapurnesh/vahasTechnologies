@@ -52,7 +52,7 @@ const Hero = () => {
               />
               <div className="absolute inset-0 bg-gray-700 opacity-40 rounded-md"></div>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <h2 className="text-white text-center text-3xl font-bold">
+                <h2 className="text-white text-center text-3xl font-bold animate-bounce delay-500 duration-1000">
                   {img.heading}
                 </h2>
                 <div className="mt-8">
