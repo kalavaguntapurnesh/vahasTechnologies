@@ -6,12 +6,14 @@ import Final from "../components/Final";
 import Record from "../components/Record";
 import OriNavbar from "../components/OriNavbar";
 import Benefits from "../components/Benefits";
+import ScrollToTop from "../components/ScrollToTop";
 const Home = () => {
   return (
     <>
       <OriNavbar />
       <Hero />
       <Record />
+      <ScrollToTop />
       <Working />
       <Benefits />
       <Final />
