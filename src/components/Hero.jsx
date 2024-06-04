@@ -15,11 +15,11 @@ const Hero = () => {
     {
       image: One,
       heading: "IT Software Solution & Support.",
-      button: "Collaborate with us",
+      button: "Journey Starts here",
     },
     {
       image: Two,
-      heading: "Vahas Technolgies Support.",
+      heading: "Vahas Technolgies Technical Support.",
       button: "Explore with us",
     },
     {
@@ -30,7 +30,7 @@ const Hero = () => {
     {
       image: Four,
       heading: "Better User Interface Structure.",
-      button: "Journey Starts here",
+      button: "Collaborate with us",
     },
   ];
 
@@ -57,10 +57,29 @@ const Hero = () => {
                 </h2>
                 <div className="mt-8">
                   <a
-                    href="/contact"
-                    className="py-2 px-10 border-black border-2 rounded-3xl font-semibold bg-black text-white transition ease-in-out duration-1000"
+                    href="/careers"
+                    className="relative inline-flex items-center justify-center py-2 px-16 overflow-hidden font-semibold text-white transition duration-1000 ease-out border-2 border-black bg-black rounded-3xl group"
                   >
-                    {img.button} &#8594;
+                    <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-black group-hover:translate-x-0 ease-in-out">
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M14 5l7 7m0 0l-7 7m7-7H3"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span className="absolute flex items-center justify-center w-full h-full text-white transition-all duration-1000 transform group-hover:translate-x-full ease-in-out">
+                      Explore about us &#8594;
+                    </span>
+                    <span className="relative invisible">Button Text</span>
                   </a>
                 </div>
               </div>
