@@ -58,7 +58,7 @@ const Final = () => {
                     </div>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-[#F1F5F8] rounded-lg md:h-56 h-40 hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out cursor-pointer">
+                    <div className="bg-[#F1F5F8] rounded-lg md:h-56 h-40 hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out cursor-pointer hover:scale-110">
                       <div className="pt-3 pb-3 h-[30%] flex justify-center items-end">
                         <h1 className="text-center text-xl font-semibold">
                           Start your journey
