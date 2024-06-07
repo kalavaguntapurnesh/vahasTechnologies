@@ -35,7 +35,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full bg-white lg:pt-16 pt-8 lg:h-[75vh] h-auto">
+    <div className="w-full bg-white lg:pt-16 pt-8 lg:h-[75vh] h-auto animate-slidein [--slidein-delay:500ms] opacity-0">
       <Swiper
         modules={[Autoplay, A11y]}
         spaceBetween={30}
