@@ -6,7 +6,7 @@ const CareersThree = () => {
   return (
     <div className="bg-white">
       <div className="relative pt-4 pb-8">
-        <div className="w-full">
+        <div className="w-full animate-slidein [--slidein-delay:1300ms] opacity-0">
           <div className="w-full px-4 mx-auto max-w-[1200px]">
             <div className="justify-center w-full pb-8">
               <div className="w-full max-w-[1200px] mx-auto space-y-4 ">
