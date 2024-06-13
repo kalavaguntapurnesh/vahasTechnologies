@@ -48,7 +48,7 @@ const Hero = () => {
               <img
                 src={img.image}
                 alt={`slide-${index + 1}`}
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[500px] lg:object-cover object-center"
               />
               <div className="absolute inset-0 bg-gray-700 opacity-40 rounded-md"></div>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
