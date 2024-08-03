@@ -1,4 +1,4 @@
-import WorldMap from "../../public/WorldMapTwo.png";
+import world from "../assets/world.svg";
 
 const AboutTwo = () => {
   return (
@@ -69,7 +69,7 @@ const AboutTwo = () => {
                     </div>
                   </div>
                   <div className="flex justify-center items-center md:mt-0 mt-4">
-                    <img src={WorldMap} alt="" className="w-full" />
+                    <img src={world} alt="" className="w-full" />
                   </div>
                 </div>
               </div>
