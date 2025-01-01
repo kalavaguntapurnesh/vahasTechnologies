@@ -7,8 +7,6 @@ import "swiper/css/autoplay";
 import "swiper/css/controller";
 import One from "../../public/One.jpeg";
 import Two from "../../public/Two.jpeg";
-import Three from "../../public/Three.webp";
-import Four from "../../public/Four.webp";
 
 const Hero = () => {
   const data = [
@@ -21,16 +19,6 @@ const Hero = () => {
       image: Two,
       heading: "Vahas Technolgies Technical Support.",
       button: "Explore with us",
-    },
-    {
-      image: Three,
-      heading: "Solid battle tested Infrastructure.",
-      button: "Make a better future",
-    },
-    {
-      image: Four,
-      heading: "Better User Interface Structure.",
-      button: "Collaborate with us",
     },
   ];
 
